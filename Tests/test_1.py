@@ -12,7 +12,7 @@ import os
 #         print(str(e))
 
 
-def test_open():
+def test_open1():
     try:
 
         subprocess.Popen(r'C:\\Program Files (x86)\\Analytik Jena\\VisionWorks\\VisionWorks.exe', cwd=r'C:\\Program Files (x86)\\Analytik Jena\\VisionWorks')
