@@ -1,1 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="CI00008926" name="pytest" skipped="0" tests="3" time="10.899" timestamp="2020-05-14T11:12:10.014857"><testcase classname="Tests.test_1" file="Tests\test_1.py" line="14" name="test_open" time="0.011"></testcase><testcase classname="Tests.test_1" file="Tests\test_1.py" line="22" name="test_update_check" time="10.468"></testcase><testcase classname="Tests.test_1" file="Tests\test_1.py" line="32" name="test_close" time="0.293"></testcase></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="CI00008926" name="pytest" skipped="0" tests="1" time="0.151" timestamp="2020-05-21T16:47:28.940778"><testcase classname="" file="Tests/test_1.py" name="Tests.test_1" time="0.000"><error message="collection failure">ImportError while importing test module &apos;C:\Users\madamie\PycharmProjects\Draft\Tests\test_1.py&apos;.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+Tests\test_1.py:1: in &lt;module&gt;
+    import pyautogui
+E   ModuleNotFoundError: No module named &apos;pyautogui&apos;</error></testcase></testsuite></testsuites>
