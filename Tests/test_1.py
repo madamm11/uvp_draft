@@ -5,6 +5,8 @@ import cv2
 import numpy as np
 import os
 
+def test_setting():
+    pyautogui.failSafe = False
 
 
 def test_open1():
